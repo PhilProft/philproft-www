@@ -1,3 +1,16 @@
 body {
-    background-color: #00CCCC
+    padding-top: 70px;
+    background-color: #ff7400;
+    text-align: center;
+    font-family: 'Arimo' sans-serif;
+}
+
+.music {
+    height: 5%;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.pageHeader {
+    padding-bottom: 100px;
 }
