@@ -2,6 +2,27 @@ p {
     font-family: 'Arimo' sans-serif;
     font-size: 20px;
     text-align: center;
-    max-width: 80%;
+    margin: 0 auto;
+}
+
+.photo {
+    height: 150px;
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+}
+
+.container2 {
+    max-width: 1170px; 
     margin: 0 auto;
 }
