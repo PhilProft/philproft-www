@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
-import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,8 +14,7 @@ import { AppRoutingModule } from './app-routing.module';
     MyProjectsComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
